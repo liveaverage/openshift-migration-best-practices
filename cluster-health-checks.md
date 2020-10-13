@@ -56,7 +56,7 @@ You can perform the following health checks on an OpenShift 3.9+ source cluster:
 
 * Check for pending certificate signing requests:
   ```
-  $ oc get crs
+  $ oc get csr
   ```
 
 * Check that [time synchronization](https://docs.openshift.com/container-platform/3.11/day_two_guide/run_once_tasks.html#day-two-guide-ntp-synchronization) is consistent across the whole cluster.
